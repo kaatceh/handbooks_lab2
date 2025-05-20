@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +10,10 @@
 
   <h1 align="center">Онлайн-довідники</h1>
 
-  <p><b>Ласкаво просимо</b> до <i>довідкового порталу</i>! Цей сайт містить інформацію з різних сфер: науки, медицини та права.</p>
+  <p><b>Ласкаво просимо</b> до <i>довідкового порталу</i>! Цей сайт містить інформацію з різних сфер: науки, медицини, права та технологій.</p>
+
+  <!-- Приклад з <font> -->
+  <p><font color="darkblue" size="4" face="Verdana">Цей сайт створено для зручного пошуку тематичних довідників різного типу.</font></p>
 
   <p>Скористайтесь посиланнями нижче, щоб перейти до потрібного розділу:</p>
 
@@ -19,6 +21,7 @@
     <li><a href="science.html">Наукові довідники</a></li>
     <li><a href="medicine.html">Медичні довідники</a></li>
     <li><a href="legal.html">Юридичні довідники</a></li>
+    <li><a href="tech.html">Технологічні довідники</a></li>
   </ul>
 
   <p><a href="#footer">Перейти до нижньої частини сторінки (якір)</a></p>
@@ -26,27 +29,31 @@
 
   <h2 align="center">Тематичні довідники у таблиці</h2>
 
-  <table border="1" align="center" width="80%" cellpadding="10" cellspacing="2">
+  <table border="1" align="center" width="90%" cellpadding="10" cellspacing="2">
     <caption><b>Категорії довідників</b></caption>
     <tr bgcolor="#d3d3d3" align="center">
       <th>Наука</th>
       <th>Медицина</th>
       <th>Право</th>
+      <th>Технології</th>
     </tr>
     <tr align="center">
       <td><img src="science.jpg" width="100" height="70" alt="Наука"></td>
       <td><img src="medicine.jpg" width="100" height="70" alt="Медицина"></td>
       <td><img src="legal.jpg" width="100" height="70" alt="Право"></td>
+      <td><img src="tech.jpg" width="100" height="70" alt="Технології"></td>
     </tr>
     <tr align="center">
-      <td><a href="science.html">Читати</a></td>
+      <td><a href="science.html">Переглянути</a></td>
       <td><a href="medicine.html">Переглянути</a></td>
-      <td><a href="legal.html">Відкрити</a></td>
+      <td><a href="legal.html">Переглянути</a></td>
+      <td><a href="tech.html">Переглянути</a></td>
     </tr>
     <tr>
       <td>Наукові статті, енциклопедії</td>
       <td>Довідники з лікування та анатомії</td>
       <td>Закони, кодекси, права</td>
+      <td>Новини технологій, ІТ та інновації</td>
     </tr>
   </table>
 
@@ -66,12 +73,11 @@
       <th>Формат</th>
     </tr>
     <tr>
-      <td align="center">Наука</td>
+      <td align="center" rowspan="2">Наука і Медицина</td>
       <td>Енциклопедії, статті</td>
       <td>Текст, зображення</td>
     </tr>
     <tr>
-      <td align="center">Медицина</td>
       <td>Анатомія, лікування</td>
       <td>Текст, таблиці</td>
     </tr>
@@ -80,7 +86,20 @@
       <td>Закони, документи</td>
       <td>Текст, PDF</td>
     </tr>
+    <tr>
+      <td align="center">Технології</td>
+      <td>Програмування, мережі</td>
+      <td>Код, статті</td>
+    </tr>
   </table>
+
+  <h2 align="center">Що таке довідник?</h2>
+  <dl>
+    <dt><b>Довідник</b></dt>
+    <dd>Систематизований ресурс з інформацією для швидкого пошуку знань.</dd>
+    <dt><b>Енциклопедія</b></dt>
+    <dd>Багатотомне зібрання статей на різні теми з поясненнями та ілюстраціями.</dd>
+  </dl>
 
   <h2 align="center">Популярні довідники</h2>
 
@@ -93,6 +112,9 @@
     </a>
     <a href="legal_large.jpg" target="_blank">
       <img src="legal.jpg" width="150" height="100" alt="Право" title="Юридичний довідник">
+    </a>
+    <a href="tech_large.jpg" target="_blank">
+      <img src="tech.jpg" width="150" height="100" alt="Технології" title="Технічний довідник">
     </a>
   </p>
 
